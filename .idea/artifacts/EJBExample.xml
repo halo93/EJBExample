@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="EJBExample">
+    <output-path>$PROJECT_DIR$/out/artifacts/EJBExample</output-path>
+    <root id="archive" name="EJBExample.ear">
+      <element id="javaee-facet-resources" facet="EJBExample/ejb/EJB" />
+      <element id="module-output" name="EJBExample" />
+      <element id="artifact" artifact-name="EJBExample:war exploded" />
+      <element id="jpa-descriptors" facet="EJBExample/jpa/JPA" />
+      <element id="directory" name="lib">
+        <element id="library" level="project" name="ejb-3.2" />
+      </element>
+    </root>
+  </artifact>
+</component>
